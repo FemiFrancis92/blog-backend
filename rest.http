@@ -1,0 +1,15 @@
+###Send 
+GET http://localhost:5000
+Content-Type: application/json
+
+###post name
+POST http://localhost:5000
+Content-Type: application/json
+
+{"name":"Femi"}
+
+###post2
+POST http://localhost:5000/api/article/node/comments 
+
+content-Content-Type: application/json
+{"username":"Femi","text":"easy one"}
